@@ -40,4 +40,4 @@ The temperature distribution is evaluated to investigate the influence of plasti
 - Post-processing and visualization
 ## Temperature Contour Animation
 
-![Temperature distribution during rolling](Results/temperature-pass2.gif)
+![coldrolling.gif](Rcoldrolling.gif)
