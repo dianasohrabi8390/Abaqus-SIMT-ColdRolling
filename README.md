@@ -3,7 +3,7 @@
 ## 🎬 Simulation Animation (Stress & Strain Distribution)
 > **Key Focus:** Coupled Thermal-Mechanical finite element analysis of multi-pass cold rolling using Abaqus/Explicit.
 
-![Simulation Animation](نام-فایل-ویدیوی-شما.mp4)
+<video src="ColdRolling.mp4" controls width="100%"></video>
 
 ## Project Overview
 This repository contains the finite element simulation models and results for evaluating thermal-mechanical behavior and plastic deformation during the cold rolling process.
