@@ -1,21 +1,43 @@
-# Abaqus Thermal-Mechanical Simulation of Cold Rolling Process
+# Thermo-Mechanical Simulation of Cold Rolling of AISI 316L Stainless Steel
 
-## 🎬 Simulation Animation (Equivalent Stress & Strain Evolution)
-> **Key Focus:** Coupled Thermal-Mechanical finite element analysis of multi-pass cold rolling in AISI 316L stainless steel using Abaqus/Explicit.
+## Project Overview
 
-![Cold Rolling Animation](ColdRolling.gif)
+This project investigates the thermo-mechanical behavior of AISI 316L austenitic stainless steel during multi-pass cold rolling using Abaqus/Explicit.
 
----
+The simulation focuses on temperature evolution during rolling and the effects of plastic deformation, friction, and heat transfer at the roll–sheet interface.
 
-## 📌 Project Overview
-This repository contains the advanced finite element analysis (FEA) models and results evaluating the thermal-mechanical behavior, plastic deformation, and temperature distribution during industrial cold rolling processes.
+## Simulation Setup
 
-## 🛠️ Software & Technical Highlights
-- **Engineering Software:** Abaqus/CAE & Abaqus/Explicit (Coupled Thermal-Mechanical Analysis)
-- **Material:** AISI 316L Austenitic Stainless Steel
-- **Key Parameters Configured:** Density, elastic-plastic properties, inelastic heat fraction, gap conductance, and Surface Film Conditions.
-- **Critical Outputs:** Nodal temperature distribution, equivalent plastic strain (PEEQ), and stress contours.
+- **Material:** AISI 316L stainless steel
+- **Software:** Abaqus/Explicit
+- **Process:** Multi-pass cold rolling
+- **Initial sheet thickness:** 4 mm
+- **Roll radius:** 75 mm
+- **Rolling speed:** 40 rpm (as indicated by the output filename; verify against the final model)
+- **Analysis:** Coupled temperature–displacement analysis
+- **Output variable:** NT11 (nodal temperature)
 
-## 👩‍💻 Author
-- **Diana Sohrabi** | Department of Materials Science and Engineering, Sharif University of Technology
-- **Academic Profile:** B.Sc. Undergraduate Student | Active Researcher in Deformation Mechanics & Phase Transformations
+## Results
+
+The animated temperature contour illustrates the temperature field during the simulated rolling process.
+
+The temperature distribution is evaluated to investigate the influence of plastic deformation, frictional heating, and heat transfer on the sheet temperature.
+
+**Note:** The animation should be analyzed over the complete rolling step. The initial frame alone does not represent the final thermal response.
+
+## Project Objectives
+
+- Simulate the cold-rolling process.
+- Analyze temperature evolution during deformation.
+- Investigate the role of thermal boundary conditions.
+- Support comparison between numerical predictions and experimental observations.
+
+## Tools
+
+- Abaqus/Explicit
+- Finite Element Analysis (FEA)
+- Thermo-mechanical modeling
+- Post-processing and visualization
+## Temperature Contour Animation
+
+![Temperature distribution during rolling](Results/temperature-pass2.gif)
